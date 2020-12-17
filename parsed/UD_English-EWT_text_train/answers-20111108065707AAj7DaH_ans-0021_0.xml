@@ -1,0 +1,28 @@
+<root annotationID="0" passageID="answers-20111108065707AAj7DaH_ans-0021_0">
+  <attributes />
+  <extra format="ucca" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[15865537509426975392, 15865537509426975392, 14872845191859177490, 97, 0, 2, 8206900633647566924, 0, 13564506370774946738, 15817570140490810055, 3176689053040942592]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="http://www.utrechtart.com/Craft-Supplies/Woodworking%20Supplies/" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="F">
+        <attributes />
+        <category tag="F" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

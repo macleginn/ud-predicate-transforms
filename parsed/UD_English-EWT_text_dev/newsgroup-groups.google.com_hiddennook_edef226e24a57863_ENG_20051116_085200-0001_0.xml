@@ -1,0 +1,56 @@
+<root annotationID="0" passageID="newsgroup-groups.google.com_hiddennook_edef226e24a57863_ENG_20051116_085200-0001_0">
+  <attributes />
+  <extra format="ucca" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[4398759943034541363, 4398759943034541363, 17111077179131903759, 97, 0, 2, 445, 1, 4398759943034541363, 4398759943034541363, 4398759943034541363], [11319740779346310018, 11319740779346310018, 15794550382381185553, 96, 0, 2, 8206900633647566924, 0, 10824546043127513494, 15817570140490810055, 9838522500503538089], [3806482680584466996, 3806482680584466996, 2465883113906300949, 97, 0, 2, 445, -1, 3806482680584466996, 3806482680584466996, 3806482680584466996]]]" />
+    <node ID="0.1" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="1" text="[" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="http://www.newscientistspace.com/article.ns?id=dn8293&amp;feedId=human-spaceflight_atom03" />
+    </node>
+    <node ID="0.3" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="3" text="]" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+      <edge toID="1.3" type="F">
+        <attributes />
+        <category tag="F" />
+      </edge>
+      <edge toID="1.4" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.2" type="PNCT">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="PNCT">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

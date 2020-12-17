@@ -1,0 +1,91 @@
+<root annotationID="0" passageID="answers-20111107035344AAdi9dS_ans-0008_0">
+  <attributes />
+  <extra format="ucca" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[8001676279154232047, 8001676279154232047, 15794550382381185553, 96, 383, 3, 8206900633647566924, 0, 13862804199789047564, 17714545831559622561, 11950935514947926977], [4819537671249353417, 16428057658620181782, 74, 94, 383, 1, 8110129090154140942, -1, 10051403712350776587, 11221368173670222813, 4819537671249353417], [9250129606845508465, 3740602843040177340, 17571114184892886314, 89, 383, 1, 407, -2, 14968597813295776895, 17427324969254097257, 9250129606845508465], [9808554309457550146, 9808554309457550146, 15794550382381185553, 96, 9191306739292312949, 3, 7037928807040764755, 1, 13862804199789047564, 14825646868312541310, 12381137815636248355], [18040163914173781974, 18040163914173781974, 15794550382381185553, 96, 9191306739292312949, 1, 410, -4, 13862804199789047564, 149303876845869574, 1461058351450833281], [17494803046312582752, 17494803046312582752, 12646065887601541794, 97, 0, 2, 445, -5, 17494803046312582752, 17494803046312582752, 17494803046312582752], [16033823940537418302, 16033823940537418302, 11233576250605462493, 96, 0, 2, 8206900633647566924, 0, 8245259351392290065, 11532473245541075862, 16033823940537418302]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="PORTILLO" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="'S" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="OR" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="WHITE" />
+    </node>
+    <node ID="0.5" type="Word">
+      <attributes paragraph="1" paragraph_position="5" text="CASTLE" />
+    </node>
+    <node ID="0.6" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="6" text="!" />
+    </node>
+    <node ID="0.7" type="Word">
+      <attributes paragraph="1" paragraph_position="7" text=":D" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+      <edge toID="1.3" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+      <edge toID="1.4" type="A">
+        <attributes />
+        <category tag="A" />
+      </edge>
+    </node>
+    <node ID="1.2" type="PNCT">
+      <attributes />
+      <edge toID="0.6" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.7" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="1.5" type="A">
+        <attributes />
+        <category tag="A" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

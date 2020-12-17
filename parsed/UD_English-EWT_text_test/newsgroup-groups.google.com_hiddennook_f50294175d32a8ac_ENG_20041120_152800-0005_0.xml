@@ -1,0 +1,70 @@
+<root annotationID="0" passageID="newsgroup-groups.google.com_hiddennook_f50294175d32a8ac_ENG_20041120_152800-0005_0">
+  <attributes />
+  <extra format="ucca" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[5942216231493502897, 5942216231493502897, 15794550382381185553, 96, 383, 3, 426, 3, 13862804199789047564, 16337536289976144572, 12463487064427037423], [2466615745961202537, 2466615745961202537, 99, 99, 0, 2, 445, 1, 2466615745961202537, 2466615745961202537, 2466615745961202537], [8416598322089702775, 8416598322089702775, 15794550382381185553, 96, 380, 3, 7037928807040764755, 1, 16072095006890171862, 18003918085672799305, 2555790282192608669], [4815023154314192865, 4815023154314192865, 15794550382381185553, 96, 380, 1, 8206900633647566924, 0, 10887629174180191697, 16337536289976144572, 16269389796083179738]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="REUTERS" />
+    </node>
+    <node ID="0.2" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="2" text="/" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="Jason" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="Reed" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="P">
+        <attributes />
+        <category tag="P" />
+      </edge>
+      <edge toID="1.4" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+      <edge toID="1.5" type="A">
+        <attributes />
+        <category tag="A" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="PNCT">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

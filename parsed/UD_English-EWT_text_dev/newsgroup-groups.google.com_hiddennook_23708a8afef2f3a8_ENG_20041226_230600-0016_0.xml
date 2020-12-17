@@ -1,0 +1,28 @@
+<root annotationID="0" passageID="newsgroup-groups.google.com_hiddennook_23708a8afef2f3a8_ENG_20041226_230600-0016_0">
+  <attributes />
+  <extra format="ucca" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[10501404726543969396, 10501404726543969396, 11532473245541075862, 97, 0, 2, 8206900633647566924, 0, 10501404726543969396, 9153284864653046197, 10501404726543969396]]]" />
+    <node ID="0.1" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="1" text="--" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.2" type="PNCT">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

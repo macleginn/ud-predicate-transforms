@@ -1,0 +1,77 @@
+<root annotationID="0" passageID="email-enronsent09_02-0024_0">
+  <attributes />
+  <extra format="ucca" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[16530679158541427010, 16530679158541427010, 15794550382381185553, 96, 383, 3, 7037928807040764755, 2, 14968597813295776895, 10603054956214495369, 16530679158541427010], [2222465458752519136, 2222465458752519136, 15794550382381185553, 96, 383, 1, 7037928807040764755, 1, 3552942401566437853, 9350754067018752509, 2222465458752519136], [16126407305359135288, 16126407305359135288, 15794550382381185553, 96, 383, 1, 426, 4, 3552942401566437853, 10603054956214495369, 16126407305359135288], [9397940574446756610, 9397940574446756610, 15794550382381185553, 96, 383, 1, 426, 3, 14968597813295776895, 4690420944186131903, 9397940574446756610], [15992709689677161973, 15992709689677161973, 8427216679587749980, 93, 0, 2, 12837356684637874264, -1, 3775373693070298000, 15180167692696242062, 6602506476359942532], [2466615745961202537, 2466615745961202537, 99, 99, 0, 2, 445, 1, 2466615745961202537, 2466615745961202537, 2466615745961202537], [16398877448063810194, 16398877448063810194, 15794550382381185553, 96, 0, 2, 8206900633647566924, 0, 16072095006890171862, 9391737413944127320, 9803189552068640945]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="LS" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="HPL" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="LSK" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="IC" />
+    </node>
+    <node ID="0.5" type="Word">
+      <attributes paragraph="1" paragraph_position="5" text="20.000" />
+    </node>
+    <node ID="0.6" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="6" text="/" />
+    </node>
+    <node ID="0.7" type="Word">
+      <attributes paragraph="1" paragraph_position="7" text="Enron" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="A">
+        <attributes />
+        <category tag="A" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.7" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="1.3" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.3" type="PNCT">
+      <attributes />
+      <edge toID="0.6" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

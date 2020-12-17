@@ -1,0 +1,35 @@
+<root annotationID="0" passageID="reviews-279070-0001_0">
+  <attributes />
+  <extra format="ucca" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[14637358012790906115, 8881679497796027013, 10554686591937588953, 84, 0, 2, 402, 1, 16072095006890171862, 16829822105563051112, 9837207709914848172], [16279010155734418059, 15832034414286931965, 15308085513773655218, 92, 0, 2, 8206900633647566924, 0, 10887629174180191697, 3209455878668673793, 6994356607058922890]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Great" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="Meal" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="A">
+        <attributes />
+        <category tag="A" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>
