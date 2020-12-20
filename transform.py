@@ -112,10 +112,10 @@ def convert_nominal_predicates(
 def collapse_participants(
     ud_tree: UDLib.UDTree,
     collapsed_label: str ='A'
-) -> UDLib.UDTree:
+):
     """
     Collapses nsubj, obj, iobj, and obl into A (when UCCA labels
-    are adopted) or some other tag (e.g., obl).
+    are adopted) or some other tag (e.g., obl) in place.
     """
 
     swap_labels(ud_tree, {
@@ -158,7 +158,7 @@ def get_sent_id(tree: UDLib.UDTree):
         return None
 
 
-def swap_labels(ud_tree: UDLib.UDTree, replacement_dict: Dict[str, str]) -> UDLib.UDTree:
+def swap_labels(ud_tree: UDLib.UDTree, replacement_dict: Dict[str, str]):
     """
     Replaces labels in the tree according to the replacement dict in place.
     Labels' subcategories are ignored.
@@ -177,7 +177,7 @@ def swap_labels(ud_tree: UDLib.UDTree, replacement_dict: Dict[str, str]) -> UDLi
 def replace_label(ud_tree: UDLib.UDTree, node_id: str, new_label: str):
     """
     Replaces the dependency label in the node and all edge goint out
-    or coming into this node.
+    or coming into this node in place.
     """
 
     ud_tree.nodes[node_id].DEPREL = new_label
@@ -194,7 +194,6 @@ def replace_label(ud_tree: UDLib.UDTree, node_id: str, new_label: str):
                     ):
                         ud_tree.graph[parent_id][j].relation = new_label
                         break
-    return ud_tree
 
 
 if __name__ == "__main__":
